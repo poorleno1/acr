@@ -6,8 +6,8 @@ locals {
   App_Insight_name = "appins-${local.suffix}"
   container_app_environment_name = "ca-${local.suffix}"
   container_app_msi = "msi-${local.suffix}"
-  shared_key_vault_resource_group_name = "jarekvault"
-  shared_key_vault_name = "archiwum"
+  shared_key_vault_resource_group_name = "archiwum"
+  shared_key_vault_name = "jarekvault"
 
 
   acr_name = "acr${replace(local.suffix,"-","")}"
